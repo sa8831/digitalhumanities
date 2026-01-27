@@ -1,84 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Information Transfer Across Mediums</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Info Transfer Across Mediums</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- Header -->
-    <header class="banner">
-        <h1>Information Transfer Across Mediums</h1>
-        <p>Click a bubble to explore how the same information is conveyed in Written, Audio, and Video formats.</p>
-    </header>
+  <div class="banner">
+    <h1>How Information Transfers Across Mediums</h1>
+    <p class="instructions">Read the text bubbles and click on them to explore audio and video variations.</p>
+  </div>
 
-    <!-- Bubbles Section -->
-    <section class="bubbles-section">
+  <!-- Topic 1 -->
+  <div class="section">
+    <button class="text-bubble" data-section="1">Topic 1: Written Information</button>
+    <div class="content mindmap" id="content-1">
+      <div class="media audio-box">
+        <h3>Audio</h3>
+        <audio controls>
+          <source src="audio1.mp3" type="audio/mpeg">
+        </audio>
+      </div>
+      <div class="media video-box">
+        <h3>Video</h3>
+        <video controls width="400">
+          <source src="video1.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="reflection" id="reflection-1">
+        <p>Which medium helped you understand this information best?</p>
+        <button class="pref-btn">Text</button>
+        <button class="pref-btn">Audio</button>
+        <button class="pref-btn">Video</button>
+      </div>
+    </div>
+  </div>
 
-        <!-- Bubble 1 -->
-        <div class="bubble-container">
-            <button class="bubble">Climate Change</button>
-            <div class="expanded-content">
-                <h3>Written</h3>
-                <p>Detailed reports and charts presenting data on climate change trends and statistics.</p>
+  <!-- Topic 2 -->
+  <div class="section">
+    <button class="text-bubble" data-section="2">Topic 2: Audio Information</button>
+    <div class="content mindmap" id="content-2">
+      <div class="media audio-box">
+        <h3>Audio</h3>
+        <audio controls>
+          <source src="audio2.mp3" type="audio/mpeg">
+        </audio>
+      </div>
+      <div class="media video-box">
+        <h3>Video</h3>
+        <video controls width="400">
+          <source src="video2.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="reflection" id="reflection-2">
+        <p>Which medium helped you understand this information best?</p>
+        <button class="pref-btn">Text</button>
+        <button class="pref-btn">Audio</button>
+        <button class="pref-btn">Video</button>
+      </div>
+    </div>
+  </div>
 
-                <h3>Audio</h3>
-                <audio controls>
-                    <source src="audio/climate.mp3" type="audio/mpeg">
-                    Your browser does not support the audio element.
-                </audio>
+  <!-- Topic 3 -->
+  <div class="section">
+    <button class="text-bubble" data-section="3">Topic 3: Video Information</button>
+    <div class="content mindmap" id="content-3">
+      <div class="media audio-box">
+        <h3>Audio</h3>
+        <audio controls>
+          <source src="audio3.mp3" type="audio/mpeg">
+        </audio>
+      </div>
+      <div class="media video-box">
+        <h3>Video</h3>
+        <video controls width="400">
+          <source src="video3.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="reflection" id="reflection-3">
+        <p>Which medium helped you understand this information best?</p>
+        <button class="pref-btn">Text</button>
+        <button class="pref-btn">Audio</button>
+        <button class="pref-btn">Video</button>
+      </div>
+    </div>
+  </div>
 
-                <h3>Video</h3>
-                <iframe width="400" height="225" src="https://www.youtube.com/embed/example1" frameborder="0" allowfullscreen></iframe>
-            </div>
-        </div>
-
-        <!-- Bubble 2 -->
-        <div class="bubble-container">
-            <button class="bubble">Health Advice</button>
-            <div class="expanded-content">
-                <h3>Written</h3>
-                <p>Guidelines on nutrition and exercise routines explained in text form.</p>
-
-                <h3>Audio</h3>
-                <audio controls>
-                    <source src="audio/health.mp3" type="audio/mpeg">
-                    Your browser does not support the audio element.
-                </audio>
-
-                <h3>Video</h3>
-                <iframe width="400" height="225" src="https://www.youtube.com/embed/example2" frameborder="0" allowfullscreen></iframe>
-            </div>
-        </div>
-
-        <!-- Bubble 3 -->
-        <div class="bubble-container">
-            <button class="bubble">Historical Event</button>
-            <div class="expanded-content">
-                <h3>Written</h3>
-                <p>Textual accounts describing the event, dates, figures, and narratives.</p>
-
-                <h3>Audio</h3>
-                <audio controls>
-                    <source src="audio/history.mp3" type="audio/mpeg">
-                    Your browser does not support the audio element.
-                </audio>
-
-                <h3>Video</h3>
-                <iframe width="400" height="225" src="https://www.youtube.com/embed/example3" frameborder="0" allowfullscreen></iframe>
-            </div>
-        </div>
-
-    </section>
-
-    <!-- Reflection Section -->
-    <section class="section">
-        <h2>Reflection</h2>
-        <p>Which medium helped you understand the information best? Which one was most engaging? Think about how the same message changes depending on the medium.</p>
-    </section>
-
-    <script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>

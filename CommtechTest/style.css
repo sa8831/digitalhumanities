@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+  background: #f0f0f0;
+}
+
+.banner {
+  background: #ecb6b6;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.instructions {
+  font-size: 1rem;
+  color: #555;
+}
+
+.info-bubble {
+  margin-top: 50px;
+}
+
+.bubble-btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 20px;
+  border: 1px solid #333;
+}
+
+.media-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  opacity: 0;
+  transition: opacity 0.8s;
+}
+
+.info-bubble.show-media .media-container {
+  opacity: 1;
+}
+
+.reflection {
+  margin-top: 30px;
+  font-weight: bold;
+  opacity: 0;
+  transition: opacity 0.8s;
+}
+
+.reflection.show {
+  opacity: 1;
+}

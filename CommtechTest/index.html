@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Info Transfer Test</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="banner">
+    <h1>How Information Transfers Across Mediums</h1> <!--Title -->
+    <p class="instructions">Click on the text bubble to see how audio and video convey the same info.</p> <!--Instructions -->
+  </div>
+
+  <div class="info-bubble" id="bubble1">
+    <button class="bubble-btn">Lorem Ipsum idk!</button> <!--Paragraph about source --> 
+
+    <div class="media-container">
+      <audio src="example.mp3" controls></audio> <!--adding a audio (note fix the source) --> 
+
+      <video src="example.mp4" controls width="300"></video> <!--adding a video (note fix the source) --> 
+    </div>
+
+    <div class="reflection">
+      <p>Which medium helped you understand the info better? Audio or Video?</p> <!--Prompt coming after viewing -->
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
