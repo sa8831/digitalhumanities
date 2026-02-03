@@ -1,5 +1,5 @@
 ---
-permalink: /digital-narrative/
+permalink: /dn/
 title: "Digital Narrative"
 ---
 
