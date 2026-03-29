@@ -54,7 +54,7 @@ Looking at the data, "night*" is clearly the most consistently present term thro
 
 <iframe style='width: 100%; height: 400px;' src='https://voyant-tools.org/tool/Loom/?view=Loom&corpus=6ca327906f220f3326c93e8eff733fd9'></iframe>
 
-*Figure 2: Interactive Bubblelines visualization showing the distribution of death\*, blood\*, vampire\*, and night\* across all five texts.*
+*Figure 3: Interactive Bubblelines visualization showing the distribution of death\*, blood\*, vampire\*, and night\* across all five texts.*
 
 This can be seen in the results that I have found so far. From the Trends graph, we can see how the use of words develops over time, covering almost a hundred years of vampire literature. In *pg6087*, it should be noted that, since it was written in 1819, during the Romantic period, when horror was based more on atmosphere, mystery, and psychological terror rather than outright declaration, the word "vampire" is never even mentioned in the text, as the vampire uses his aristocracy and intimidation, not vampirism, to get what he wants (Süner 187). In 1914, however, it is clear from *pg62873* that the cultural and academic interest in documenting and classifying vampire mythology had grown considerably since the genre had been firmly established through nearly a century of Gothic fiction from Polidori to Stoker. This is evident in *pg62873*, as the word "vampire" is used constantly, but this is because it is a non-fiction text and the author is writing academically, so he must define and explain his subject matter outright. In the fiction texts in between, however, the use of the word "vampire" is again as in *pg6087*, i.e., "night*," "blood*," and "eyes*" without ever using the word "vampire" itself.
 
