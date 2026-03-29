@@ -1,9 +1,9 @@
 main:
-  - title: "DIGITAL NARRATIVE"
+  - title: "Digital Narrative"
     url: /dn/
-  - title: "ASSIGNMENTS"
+  - title: "Assignments"
     url: /assignments/
-  - title: "FINAL PRESENTATION"
+  - title: "Final Presentation"
     url: /fp/
-  - title: "TAGS"
+  - title: "Tags"
     url: /tags/
