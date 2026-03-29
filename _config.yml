@@ -58,9 +58,9 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
+  name   : "Shamsa Alremeithi"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "I am a NYUAD student majoring in Interactive Media.  This is my website for Introduction to Digital Humanities Spring 26 course!"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
