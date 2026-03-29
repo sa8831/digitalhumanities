@@ -30,8 +30,11 @@ Prior to my analysis, I hypothesized that words like “blood” and “night”
 
 In choosing these particular five works, I also considered the word count of each. Project Gutenberg shows massive works like *Varney the Vampire* and *Dracula* itself, which have a word count ranging from hundreds of thousands of words down to less than 7,000. I checking the word count of each work through Voyant Tools' summary panel and found that having works with extreme differences in word count, like *Dracula* which has a word count of over 165,000, would have greatly affected the results when the relative frequency is considered. Therefore, the five works for this corpus have a word count ranging from 15,000 to 60,000. 
 
-![Voy Summary](/assets/images/voysummary.png)
-*Figure 1: Summary statistics from Voyant Tools showing word counts across all possible texts.*
+<figure>
+  <img src="{{ '/assets/images/voysummary.png' | relative_url }}" alt="Voy Summary">
+  <figcaption>Figure 1: Summary statistics from Voyant Tools showing word counts across all possible texts.</figcaption>
+</figure>
+
 
 After conducting some research on vampire fiction, I hypothesized that these texts would instead focus on implication rather than direct mention. I was also interested to see how my analysis would support or contradict my hypothesis. For example, knowing that *pg10007* is a work of fiction that focuses on implication rather than direct mention, I was interested to see how the text's overall tone would show in terms of word frequencies.
 
@@ -41,8 +44,10 @@ The first thing that leapt out at me as I loaded my corpus into Voyant Tools was
 
 What was more surprising was just how dominant "vampire*" was in its sole appearance in pg62873, compared to the  four fiction texts at nearly zero:
 
-![Voy Trends](/assets/images/voytrends.webp)
-*Figure 1: Relative frequency trends for blood*, night*, vampire*, and death* across the five texts.*
+<figure>
+  <img src="{{ '/assets/images/voytrends.webp' | relative_url }}" alt="Voy Trends">
+  <figcaption>Figure 2: Relative frequency trends for blood*, night*, vampire*, and death* across the five texts.</figcaption>
+</figure>
 
 Looking at the data, "night*" is clearly the most consistently present term throughout all the fiction texts, implying that nocturnal imagery is used to signal the vampire's presence rather than being naming it directly. 
 "blood*" and "death*" follow a similar pattern to "vampire*" in that they remain low throughout the fiction texts before spiking sharply in *pg62873*. This further supports the distinction between the way that both fiction and non-fiction treat the same subject material. In addition, this also supports my idea of how these types of works would utilize indirect language. It may not be immediately clear if one reads each of these works linearly. This is because if one reads these works linearly, they would be so engaged with the work to think about how they would see word patterns across five works at once. Adwetewa-Badu touches on this idea on the **High Theory Podcast** on the value of distant reading for finding patterns across works, especially how these works can "give us really wonderful insights into how people thought about language, how people thought about the world around them in particular time periods, and then how that changed over time as well." (12:03). This is evident since it also shows how their usage changes throughout nearly a century of vampire literature. 
@@ -59,13 +64,18 @@ What is interesting, however, is that even though these works are as different a
 
 From the RMarkdown notebook in posit.cloud, I created two more visualizations using the Project Gutenberg Explorer. 
 
-![R Wordcloud](/assets/images/wordcloud.webp)
-*Figure 3: Color-coded wordcloud showing the most frequent words across the corpus, colored by book origin.*
+<figure>
+  <img src="{{ '/assets/images/wordcloud.webp' | relative_url }}" alt="R Wordcloud">
+  <figcaption>Figure 1: Color-coded wordcloud showing the most frequent words across the corpus, colored by book origin.</figcaption>
+</figure>
+
 
 The wordcloud at once reveals the prominent words "time," "night," "blood," "eyes," "hand," and "found" that appear in the corpus overall. What leaps out, however, is the physicality of the words that appear most frequently in the corpus. These words are not about action or the plot of the novels but about the body, night, and blood. *pg10007* (dark red) makes up most of the words that appear in the largest size, which was a little surprising to me at first. However, since the work *pg10150* is twice as long as *pg10007*, I assumed that the size differential was the reason for the disparity in the wordcloud. But since the wordcloud uses relative frequency, the length of the two books cannot be the reason for the disparity in the wordcloud. *pg10007* simply is that dense with atmospheric language, no matter what the actual length of the two books may be. As a matter of fact, the wordcloud illustrates the point that Posner makes in **"Humanities Data: A Necessary Contradiction"**: "Data reveals some aspects of a text, but there is always a necessary contradiction between the richness of the work and the poverty of the numbers."
 
-![R Heatmap](/assets/images/heatmap.webp)
-*Figure 4: Scaled Word Frequency Heatmap showing the amount of key gothic terms in all five texts.*
+<figure>
+  <img src="{{ '/assets/images/heatmap.webp' | relative_url }}" alt="R Heatmap">
+  <figcaption>Figure 4: Scaled Word Frequency Heatmap showing the amount of key gothic terms in all five texts.</figcaption>
+</figure>
 
 Within this heatmap, what stood out is how *pg10007* dominates in nearly every term associated with dark/gothic fiction: blood (113), eyes (166), night (310), soul (64), and so on, reinforcing the common assessment of the most atmospherically rich of the five works. This demonstrates the extent to which Le Fanu uses sensory and atmospheric vocabulary in comparison to the other texts. 
 
